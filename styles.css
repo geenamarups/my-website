@@ -7,7 +7,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background-color: #3f8f3f;
     color: white;
@@ -15,7 +14,6 @@ header {
     text-align: center;
 }
 
-/* Navigation */
 nav {
     margin-top: 10px;
 }
@@ -31,7 +29,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Main content box */
 main {
     padding: 20px;
     max-width: 900px;
@@ -41,7 +38,6 @@ main {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Images */
 main img {
     max-width: 100%;
     height: auto;
@@ -50,7 +46,6 @@ main img {
     border-radius: 8px;
 }
 
-/* Footer (simplified instead of fixed) */
 footer {
     background-color: #333;
     color: white;
@@ -59,12 +54,10 @@ footer {
     margin-top: 20px;
 }
 
-/* Text */
 p {
     font-size: 1.05em;
 }
 
-/* Links */
 a {
     color: #3f8f3f;
     text-decoration: none;
@@ -74,13 +67,11 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Image borders (softer look) */
 img {
     border: 3px solid #3f8f3f;
     border-radius: 8px;
 }
 
-/* Email links */
 main a[href^="mailto:"] {
     color: #e65100;
     font-weight: bold;
