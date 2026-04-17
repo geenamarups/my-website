@@ -14,6 +14,17 @@ header {
     text-align: center;
 }
 
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 10px auto;
+    border: none;
+    max-width: 80px;
+    min-width: 80px;
+}
+
 nav {
     margin-top: 10px;
     display: flex;
@@ -32,7 +43,6 @@ nav a {
 
 nav a:hover {
     background-color: rgba(255,255,255,0.15);
-    text-decoration: none;
 }
 
 main {
@@ -86,41 +96,32 @@ main a[href^="mailto:"] {
 }
 
 @media (max-width: 768px) {
-
     header {
         padding: 20px 10px;
     }
 
     nav {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
         gap: 8px;
     }
 
     nav a {
-        display: inline-block;
-        width: auto;
-        padding: 8px 12px;
-        text-align: center;
         background: rgba(255,255,255,0.15);
-        border-radius: 5px;
     }
 
     main {
         margin: 10px;
         padding: 15px;
-        border-radius: 8px;
     }
 
     p {
         font-size: 1em;
     }
-   .logo {
-    width: 70px;
-    height: 80px;
-    max-width: none;
-    border: none;
-}
+
+    .logo {
+        width: 75px;
+        height: 75px;
+        max-width: 75px;
+        min-width: 75px;
+    }
 }
 
