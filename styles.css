@@ -123,5 +123,39 @@ main a[href^="mailto:"] {
         max-width: 75px;
         min-width: 75px;
     }
+    body.home {
+    background-image: url("back1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.about {
+    background-image: url("back2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.services {
+    background-image: url("back3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.gallery {
+    background-image: url("back4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body.contact {
+    background-image: url("back5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 }
 
