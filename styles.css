@@ -124,35 +124,35 @@ main a[href^="mailto:"] {
         min-width: 75px;
     }
     body.home {
-    background-image: url("back1.jpg");
+    background-image: url("back1.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.about {
-    background-image: url("back2.jpg");
+    background-image: url("back2.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.services {
-    background-image: url("back3.jpg");
+    background-image: url("back3.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.gallery {
-    background-image: url("back4.jpg");
+    background-image: url("back4.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 body.contact {
-    background-image: url("back5.jpg");
+    background-image: url("back5.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
