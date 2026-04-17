@@ -123,7 +123,7 @@ main a[href^="mailto:"] {
         max-width: 75px;
         min-width: 75px;
     }
-    body.home {
+    body.index {
     background-image: url("back1.jpeg");
     background-size: cover;
     background-position: center;
