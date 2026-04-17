@@ -116,7 +116,7 @@ main a[href^="mailto:"] {
     p {
         font-size: 1em;
     }
-   logo {
+   .logo {
     width: 20px;
     height: 20px;
     max-width: none;
