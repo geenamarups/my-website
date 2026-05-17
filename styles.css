@@ -95,7 +95,7 @@ main a[href^="mailto:"] {
     font-weight: bold;
 }
  body.index {
-    background-image: url("back1.jpeg");
+    background-image: url("back2.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@ body.about {
 }
 
 body.services {
-    background-image: url("back3.jpeg");
+    background-image: url("back2.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ body.services {
 }
 
 body.gallery {
-    background-image: url("back4.jpeg");
+    background-image: url("back2.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ body.gallery {
 }
 
 body.contact {
-    background-image: url("back5.jpeg");
+    background-image: url("back2.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
