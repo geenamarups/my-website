@@ -25,20 +25,18 @@ header {
     min-width: 80px;
 }
 
-nav {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+.navbar {
+    background-color: #b76e79 !important;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
     font-weight: bold;
-    padding: 8px 12px;
-    border-radius: 5px;
+}
+
+.navbar .nav-link:hover {
+    color: #f8e7ea !important;
 }
 
 nav a:hover {
