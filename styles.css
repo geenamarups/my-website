@@ -94,36 +94,7 @@ main a[href^="mailto:"] {
     color: #e65100;
     font-weight: bold;
 }
-
-@media (max-width: 768px) {
-    header {
-        padding: 20px 10px;
-    }
-
-    nav {
-        gap: 8px;
-    }
-
-    nav a {
-        background: rgba(255,255,255,0.15);
-    }
-
-    main {
-        margin: 10px;
-        padding: 15px;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    .logo {
-        width: 75px;
-        height: 75px;
-        max-width: 75px;
-        min-width: 75px;
-    }
-    body.index {
+ body.index {
     background-image: url("back1.jpeg");
     background-size: cover;
     background-position: center;
@@ -157,11 +128,35 @@ body.contact {
     background-position: center;
     background-attachment: fixed;
 }
-    body {
-    background-image: url("background.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px 10px;
+    }
+
+    nav {
+        gap: 8px;
+    }
+
+    nav a {
+        background: rgba(255,255,255,0.15);
+    }
+
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .logo {
+        width: 75px;
+        height: 75px;
+        max-width: 75px;
+        min-width: 75px;
+    }
+   
 }
 
